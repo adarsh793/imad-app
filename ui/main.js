@@ -18,6 +18,6 @@ button.onclick = function(){
     };
     //make the request
     request.open('GET','adarsh793.imad.hasura-app.io',true);
-    request.send(null);
+    request.send('null');
 
 };
